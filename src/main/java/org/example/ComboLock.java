@@ -54,7 +54,7 @@ public class ComboLock {
      * @param number the number to turn the lock to
      */
     public void turnLeft(int number) {
-        //see if the lock is in state FIRST_CORRECT ans number is the same as s2
+        //see if the lock is in state FIRST_CORRECT and number is the same as s2
         if (comboLockState == ComboLockState.FIRST_CORRECT && s2 == number)
             //set the state to SECOND_CORRECT
             comboLockState = ComboLockState.SECOND_CORRECT;
